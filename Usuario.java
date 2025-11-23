@@ -48,7 +48,7 @@ public class Usuario {
                 throw new AppException("Nome inválido");
             this.nome = nome; 
         }catch (AppException e) {
-            System.out.println("Erro: + e.getMessage());
+            System.out.println("Erro:" + e.getMessage());
         }
     }
     public void setObjetivo(String objetivo){  
